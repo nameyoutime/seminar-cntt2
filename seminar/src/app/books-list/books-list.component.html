@@ -1,0 +1,6 @@
+<div class="flex-col">
+  <div class="text" *ngFor="let book of books | async">
+    <h2>{{ book.title }}</h2>
+    <p>{{ book.author }}</p>
+  </div>
+</div>

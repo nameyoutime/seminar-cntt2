@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "demo1-d1bcd": {
+      "hosting": {
+        "my-app": [
+          "demo1-d1bcd"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "demo1-d1bcd"
+  }
+}
