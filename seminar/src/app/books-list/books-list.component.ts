@@ -12,9 +12,6 @@ export class BooksListComponent implements OnInit {
 
   constructor(store: AngularFirestore) {
     this.books = store.collection('books').valueChanges();
-    store.collection('books').valueChanges().subscribe(data=>{
-      console.log(data);
-    })
   }
 
   ngOnInit(): void {}
